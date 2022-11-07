@@ -1,0 +1,110 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFDFE;
+    font-family: 'Inter', sans-serif;
+}
+h1 {
+    padding: 0.5em;
+    text-align: center;
+}
+p {
+    font-size: 12px;
+    color: #2B283A;
+    font-weight: 500;
+}
+.color-scheme, .color-parent, .color-options {
+    display: flex;
+}
+.color-options, main {
+    max-width: 550px;
+}
+.color-options {
+    padding-top: 0.5em;
+    align-items: center;
+    justify-content: space-around;
+    height: 3em;
+    margin-inline: auto;
+    margin-bottom: 0.5em;
+    color: #111827;
+}
+input {
+    height: 42px;
+    width: 61px;
+}
+#schemes {
+    width: 312px;
+    height: 42px;
+    font-size: 16px;
+}
+button {
+    max-width: 123px;
+    height: 42px;
+    font-size: 12px;
+    background-color: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    color: #374151;
+    cursor: pointer;
+}
+.color-scheme {
+    height: 100%;
+    margin-inline: auto;
+}
+.color-parent {
+    width: 20%;
+    height: 100%;
+    flex-direction: column;   
+}
+main {
+    height: 550px;
+    margin-inline: auto;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.color-parent > p {
+    margin: 0;
+    text-align: center;
+    padding-block: 1em;
+}
+.color {
+    width: 100%;
+    height: 81%;
+}
+#color-one {
+    background-color: #F55A5A;
+}
+#color-two {
+    background-color: #2B283A;
+}
+#color-three {
+    background-color: #FBF3AB;
+}
+#color-four {
+    background-color: #AAD1B6;
+}
+#color-five {
+    background-color: #A626D3;
+}
+
+@media (max-width: 590px) {
+    main {
+        padding: 0.7em;
+    }
+    #color-input, #schemes {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 350px) {
+    p, button {
+        font-size: 10px;
+    }
+    #schemes {
+        font-size: 12px;
+    }
+    main {
+        height: 420px;
+    }
+}

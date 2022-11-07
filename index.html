@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Color Scheme Generator</h1>
+        <main>
+            <div class="color-options">
+                <input id="color-input" type="color" value="#F55A5A">
+                <select name="schemes" id="schemes">
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-dark">Monochrome-dark</option>
+                    <option value="monochrome-light">Monochrome-light</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-complement">Analogic-complement</option>
+                    <option value="triad">Triad</option>
+                    <option value="quad">Quad</option>
+                </select>
+                <button id="get-scheme">Get color scheme</button>
+            </div>
+            <div class="color-scheme">
+                <div class="color-parent" id="color-one-parent">
+                    <div class="color" id="color-one"></div>
+                    <p id="color-one-text">#F55A5A</p>
+                </div>
+                <div class="color-parent" id="color-two-parent">
+                    <div class="color" id="color-two"></div>
+                    <p id="color-two-text">#2B283A</p>
+                </div>
+                <div class="color-parent" id="color-three-parent">
+                    <div class="color" id="color-three"></div>
+                    <p id="color-three-text">#FBF3AB</p>
+                </div>
+                <div class="color-parent" id="color-four-parent">
+                    <div class="color" id="color-four"></div>
+                    <p id="color-four-text">#AAD1B6</p>
+                </div>
+                <div class="color-parent" id="color-five-parent">
+                    <div class="color" id="color-five"></div>
+                    <p id="color-five-text">#A526D2</p>
+                </div>
+            </div>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
+
