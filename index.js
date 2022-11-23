@@ -30,7 +30,7 @@ btn.addEventListener("click", function(){
         clrThree.style.backgroundColor = colorsArray[2]
         clrFour.style.backgroundColor = colorsArray[3]
         clrFive.style.backgroundColor = colorsArray[4]
-        
+      
         clrOneText.innerHTML = colorsArray[0]
         clrTwoText.innerHTML = colorsArray[1]
         clrThreeText.innerHTML = colorsArray[2]
