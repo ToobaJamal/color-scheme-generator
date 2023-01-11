@@ -1,4 +1,5 @@
 # color-scheme-generator
+![](images/color-scheme.png)
 Color scheme generator built with Vanilla JavaScript. The user can select base color and scheme type to generate a new color scheme based on the inputs provided. This project is a part of Scrimba front-end developer career path.
 
 # Demo
