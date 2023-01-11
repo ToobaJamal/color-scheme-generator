@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 html, body {
     margin: 0;
     padding: 0;
@@ -58,7 +61,7 @@ button {
     flex-direction: column;   
 }
 main {
-    height: 550px;
+    height: 85%;
     margin-inline: auto;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -89,6 +92,14 @@ main {
 }
 
 @media (max-width: 590px) {
+    h1 {
+        font-size: 1.2em;
+        padding: 0.6em;
+        margin-top: 0.5em;
+    }
+    body {
+        padding: 1em;
+    }
     main {
         padding: 0.7em;
     }
@@ -103,8 +114,5 @@ main {
     }
     #schemes {
         font-size: 12px;
-    }
-    main {
-        height: 420px;
     }
 }
